@@ -50,3 +50,5 @@ def register():
 def logout():
     session['hasLogin'] = False
     return redirect('/')
+
+
